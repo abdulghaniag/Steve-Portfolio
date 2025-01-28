@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .head{
+            background-image: url(img/banner-bg1.jpg);
+            width: 100%;
+            height: 100vh;
+        }
+        .nav li{
+display: inline-block;
+padding-top: 25px; 
+padding-right: 40px;       
+}
+.nav{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 70px;
+    background-color: rgb(251, 217, 28);
+    position: fixed;
+}
+.nav img{
+    margin-left: 200px;
+}
+        .nav ul{
+float: right;
+margin-right: 180px;
+        }
+        .nav a{
+          text-decoration: none;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          color: rgb(18, 17, 17);
+          font-weight: bold;
+        }
+        .nav .hom {
+            color: white;
+        }
+        .steve{
+            align-content: center;
+            margin-left:520px;
+            font-size: 3.5cap;
+            width: 550px;
+            height: 650px;
+            /* border: 2px solid red; */
+        }
+        .steve p{
+            padding-left: 60px;
+            padding-top: 20px;
+            font-size: 1.5cap;
+        }
+        .steve .hire{
+            border-radius: 20px;
+            width: 120px;
+            height: 45px;
+            color: white;
+            border: none;
+            background-color: rgb(224, 86, 132);
+            margin-left: 200px;
+            font-size: 0.7cap;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+        .hire:hover{
+            background: none;
+            color: #000;
+            border: 2px solid  rgb(224, 86, 132);;
+        }
+        .latest{
+            width: 100%;
+            height: 100vh;
+        }
+        .work{
+            width: 100%;
+            height: 300px;
+            align-items: center;
+        margin-top: 120px;
+        /* margin-left: 600px; */
+        /* border: 2px solid red; */
+        }
+        .work h2{
+            padding-left: 600px;
+            font-size:1.6cm;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .work p{
+            color: rgb(121, 120, 120);
+            line-height: 24px;
+            font-weight:530;
+            margin-top: 20px;
+padding-left: 550px;
+        }
+
+.nav2{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.down li{
+    margin-left: 30px;
+display: inline-block;
+}
+.down ul{
+    margin-left: 180px;
+}
+.back{
+    margin-top: 80px;
+    /* margin-left: 300px; */
+    align-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(251, 217, 28);
+
+}
+.back a{
+    text-decoration: none;
+    font-size: large;
+}
+.down{
+    margin-left: 320px;
+    width: 60%;
+    height: 60px;
+    background-color: rgb(236, 201, 225);
+}
+.back a:hover{
+color: rgb(252, 44, 186);
+}
+.all{
+color: rgb(252, 44, 186);
+}
+.port{
+display: inline-block;
+position: relative;
+}
+.dropdown{
+display: none;
+position: absolute;
+z-index: 1;
+}
+.port:hover .dropdown{
+width: 110px;
+height: 40px;
+background-color:  rgb(251, 217, 28);
+padding-top: 10px;
+display: block;
+}
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="nav">
+            <img src="img/logo.png" alt="">
+            <ul>
+            <li>Home</li>
+            <li>About</li>
+            <div class="port"><li>Portfolio</li>
+            <div class="dropdown">
+            <p>Portfolio</p>
+            <p>Portfolio Details</p>
+
+            </div>
+            </div>
+            <div class="port"><li>Pages</li>
+            <div class="dropdown">
+            <p>Portfolio</p>
+            <p>Portfolio Details</p>
+
+            </div>
+            </div>
+            <div class="port"><li>Blog</li>
+            <div class="dropdown">
+            <p>Portfolio</p>
+            <p>Portfolio Details</p>
+
+            </div>
+            </div>
+             <div class="port"><li>Contact</li>
+            <div class="dropdown">
+            <p>Portfolio</p>
+            <p>Portfolio Details</p>
+
+            </div>
+            </div>
+            <li></li>
+            <li></li>
+            <li></li></ul>
+            <!-- <ul>
+                <li><a href="" class="hom">Home</a></li>
+                <li><a href="">About     </a></li>
+                <li><a href="">Portfolio </a></li>
+                <li><a href="">Pages     </a></li>
+                <li><a href="">Blog      </a></li>
+                <li><a href="">Contact   </a></li>
+            </ul> -->
+        </div>
+        <div class="steve">
+<h1>Steve henriques</h1>
+<p>Personal Portfoilio Website</p>
+<button class="hire">Hire Me</button>
+        </div>
+    </div>
+    <div class="latest">
+<div class="work">
+    <h2>Latest Works</h2>
+    <p>If you are looking at blank cassettes on the web, you may be very confused at <br>the difference in price. You may see some for as low as $.17 each.</p>
+
+        <div class="nav2">
+            <div class="down">
+                <div class="back">
+                <ul>
+                <li><a href="" class="all">All Categories      </a></li>
+                <li><a href="">Branding     </a></li>
+                <li><a href="">Creative Work     </a></li>
+                <li><a href="">Web Design      </a></li>
+            </ul>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
