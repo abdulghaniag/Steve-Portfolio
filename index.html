@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Steve Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         *{
             margin: 0;
@@ -74,6 +75,7 @@ margin-right: 80px;
             margin-top: 20px;
         }
         .hire:hover{
+            cursor: pointer;
             background: none;
             color: #000;
             border: 2px solid  rgb(224, 86, 132);;
@@ -174,28 +176,478 @@ display: block;
 .about:hover{
 color: white;
 }
-.carding{
+.cardsection{
     width: 100%;
     height: 80vh;
-    background-color: antiquewhite;
+    /* background-color: aquamarine; */
     display: flex;
-}
-.donut{
-    width: 50%;
-    margin-left: 200px;
-}
-.donut img{
-    padding-right: 10px;
-    border-radius:15px;
-}
-.bulb{
-    width: 500p%;
-}
-.bulb img{
-    padding: 10px;
-    border-radius:15px;
+    /* border: 2px solid gold; */
 
 }
+.donut img{
+    width: 555px;
+    height: 550px;
+    /* border: 2px solid gold; */
+}
+.donut{
+    padding-left: 200px;
+    position: relative;
+    /* background-color: antiquewhite; */
+    width: 555px;
+    height: 550px;
+
+}
+.donuttext{
+    position: absolute;
+    top: 0px;
+    padding-top: 470px;
+    padding-left: 160PX;
+    /* left: 160px; */
+    display: none;
+    z-index: 1;
+    /* border: 2px solid red; */
+    width: 555px;
+    height: 550px;
+}
+.donuttext p{
+    padding-left: 50px;
+    padding-top: 5px;
+
+}
+.donut:hover .donuttext{
+    display: block;
+    color: white;
+    background-color: rgba(36, 36, 35, 0.234);
+
+}
+
+
+.plate{
+    position: relative;
+margin-left: 220px;
+    width: 270px;
+    height: 260px;
+    /* border: 2px solid red; */
+}
+
+.platetext{
+    position: absolute;
+    top: 0px;
+    padding-top:190px;
+    padding-left: 30PX;
+    /* left: 160px; */
+    display: none;
+    z-index: 1;
+    /* border: 2px solid red; */
+    width: 265px;
+    height: 260px;
+}
+.platetext p{
+    padding-left: 50px;
+    padding-top: 5px;
+
+}
+.plate:hover .platetext{
+    border-radius: 10px;
+    width: 263px;
+    display: block;
+    color: white;
+    background-color: rgba(36, 36, 35, 0.234);
+
+
+}
+.bulb{
+    position: relative;
+    margin-left: 10px;
+    width: 265px;
+    height: 260px;
+    /* border: 2px solid red; */
+}
+.bulbtext{
+    position: absolute;
+    top: 0px;
+    padding-top:190px;
+    padding-left: 30PX;
+    /* left: 160px; */
+    display: none;
+    z-index: 1;
+    /* border: 2px solid red; */
+    width: 265px;
+    height: 260px;
+}
+.bulbtext p{
+    padding-left: 50px;
+    padding-top: 5px;
+
+}
+.bulb:hover .platetext{
+    border-radius: 10px;
+    width: 263px;
+    display: block;
+    color: white;
+    background-color: rgba(36, 36, 35, 0.234);
+
+}
+.car{
+    position: relative;
+    margin-top: 290px;
+    margin-left: -550px;
+    width: 555px;
+    height: 265px;
+    /* border: 2px solid red; */
+}
+.cartext{
+    position: absolute;
+    top: 0px;
+    padding-top:190px;
+    padding-left: 130PX;
+    /* left: 160px; */
+    display: none;
+    z-index: 1;
+    /* border: 2px solid red; */
+    /* width: 555px; */
+    height: 265px;
+}
+.cartext p{
+    padding-left: 50px;
+    padding-top: 5px;
+
+}
+.car:hover .platetext{
+    width: 555px;
+    height: 260px;
+    padding-left: 150px;
+    display: block;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(36, 36, 35, 0.234);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.car2{
+    position: relative;
+    /* margin-top: 290px; */
+    margin-left: 200px;
+    width: 550px;
+    height: 265px;
+    /* border: 2px solid red; */
+}
+.car2 img{
+    width: 543px;
+    margin-left: 10px;
+}
+.car2text{
+    position: absolute;
+    top: 0px;
+    padding-top:190px;
+    padding-left: 130PX;
+    /* left: 160px; */
+    display: none;
+    z-index: 1;
+    /* border: 2px solid red; */
+    /* width: 555px; */
+    height: 265px;
+}
+.car2text p{
+    padding-left: 50px;
+    padding-top: 5px;
+
+}
+.car2:hover .platetext{
+    width: 540px;
+    margin-left: 12px;
+    height: 254px;
+    border-radius: 10px;
+    padding-left: 160px;
+    display: block;
+    color: white;
+    background-color: rgba(36, 36, 35, 0.234);
+
+}
+.plate2{
+    position: relative;
+    margin-top: 280px;
+    margin-left: -540px;
+    width: 265px;
+    height: 260px;
+    /* border: 2px solid red; */
+}
+.plate2text{
+    position: absolute;
+    top: 0px;
+    padding-top:190px;
+    padding-left: 130PX;
+    /* left: 160px; */
+    display: none;
+    z-index: 1;
+    /* border: 2px solid red; */
+    /* width: 555px; */
+    height: 265px;
+}
+.plate2text p{
+    padding-left: 50px;
+    padding-top: 5px;
+
+}
+.plate2:hover .platetext{
+    width: 265px;
+    height: 260px;
+    border-radius: 10px;
+    /* padding-left: 150px; */
+    display: block;
+    color: white;
+    background-color: rgba(36, 36, 35, 0.234);
+
+}
+
+
+.bulb2{
+    position: relative;
+    margin-left: 10px;
+    width: 265px;
+    height: 260px;
+    /* border: 2px solid red; */
+    margin-top: 280px;
+}
+.bulb2text{
+    position: absolute;
+    top: 0px;
+    padding-top:190px;
+    padding-left: 30PX;
+    /* left: 160px; */
+    display: none;
+    z-index: 1;
+    /* border: 2px solid red; */
+    width: 265px;
+    height: 260px;
+}
+.bulb2text p{
+    padding-left: 50px;
+    padding-top: 5px;
+
+}
+.bulb2:hover .platetext{
+    border-radius: 10px;
+    width: 262px;
+    display: block;
+    color: white;
+    background-color: rgba(36, 36, 35, 0.234);
+
+}
+
+.donut2{
+    padding-left: 20px;
+    position: relative;
+    /* background-color: antiquewhite; */
+    width: 555px;
+    height: 550px;
+
+}
+.donut2text{
+    position: absolute;
+    top: 0px;
+    padding-top: 470px;
+    padding-left: 160PX;
+    /* left: 160px; */
+    display: none;
+    z-index: 1;
+    /* border: 2px solid red; */
+    width: 555px;
+    height: 550px;
+}
+.donut2text p{
+    padding-left: 50px;
+    padding-top: 5px;
+
+}
+.donut2:hover .donuttext{
+    display: block;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(36, 36, 35, 0.234);
+}
+
+.men{
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(251, 247, 243);
+    display: flex;
+    justify-content: center;
+}
+.menimg{
+    margin-top: 100px;
+    width: 40%;
+
+    /* height: 500px; */
+}
+
+.mentext{
+    margin-top: 200px;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 40%;
+}
+.mentext h2{
+font-size: 5cap;
+font-family:Arial, Helvetica, sans-serif;
+}
+.mentext p{
+    color: gray;
+    margin-top: 35px;
+    padding-left: 3px;
+}
+.more{
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    /* margin-left: 100px; */
+    margin-top: 70px;
+    background-color: white;
+    font-size:1.4cap;
+    border-color: rgb(168, 168, 241);
+}
+.more:hover{
+    /* background-color: rgb(223, 89, 11); */
+    background: #fba82b; 
+border: none;
+    color: white;
+    cursor: pointer;
+}
+.fancy{
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/testi-bg.jpg);
+
+}
+
+.cardmerge{
+    float: right;
+    margin-top: 80px;
+    margin-right: 190px;
+    width: 330px;
+    height: 400px;
+    background-color: rgb(250, 249, 249);
+}
+.cardmerge .logo1{
+    padding-top: 70px;
+    padding-left: 50px;
+    /* padding-right: 50px; */
+    width: 150px;
+    cursor: pointer;
+
+}
+.cardmerge .logo2{
+    width: 140px;
+    padding-left: 50px;
+    cursor: pointer;
+
+
+}
+.cardmerge .logo3{
+    padding-top: 70px;
+    padding-left: 70px;
+    width: 265px;
+    cursor: pointer;
+
+
+}
+.cardmerge .logo4{
+    padding-top: 80px;
+    padding-left: 50px;
+    width: 140px;
+    cursor: pointer;
+
+
+}
+.cardmerge .logo5{
+    cursor: pointer;
+    width: 155px;
+    padding-top: 90px;
+    padding-left: 60px;
+}
+
+.fanny{
+    padding-top: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.fannytext{
+    margin-top: 30px;
+}
+.fannytext h2{
+    font-size: 3cap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fannytext i{
+    margin-top: 20px;
+    color:  gold;
+}
+.fannytext p{
+    line-height: 38px;
+    margin-top: 20px;
+    font-size: 2.4cap;
+    color: gray;
+}
+.news{
+    background-image: url(img/newsletter-bg.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+.newstext{
+    padding-top: 130px;
+    text-align: center;
+}
+.newstext h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 4.5cap;
+    color: white;
+}
+.newstext p{
+    color: white;
+    padding-top: 30px;
+}
+.search input{
+width: 500px;
+height: 50px;
+border-radius: 20px;
+border: none;
+margin-top: 60px;
+padding-left: 20px;
+}
+.search{
+    position: relative;
+}
+.subs{
+    position: absolute;
+    left: 855px;
+    top: 65px;
+}
+.subs button{
+    width:150px ;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: gold;
+}
+
+
+
 
 
     </style>
@@ -266,19 +718,96 @@ color: white;
     </div>
 </div>
 
+<div class="cardsection">
+       
+    <div class="donut"><img src="img/work1.jpg" alt="">
+    <div class="donuttext"><h2>2D VINYL DESIGN</h2><p>Client Project</p> </div>
+</div>
+<div class="plate"><img src="img/work2.jpg" alt="">
+    <div class="platetext"><h2>2D VINYL DESIGN</h2><p>Client Project</p> </div>
+</div>
+<div class="bulb"><img src="img/work3.jpg" alt="">
+    <div class="platetext"><h2>2D VINYL DESIGN</h2><p>Client Project</p> </div>
+</div>
+<div class="car"><img src="img/work5.jpg" alt="">
+    <div class="platetext"><h2>2D VINYL DESIGN</h2><p>Client Project</p> </div>
+</div>
+</div>
+</div>
+<div class="cardsection">   
+    <div class="car2"><img src="img/work4.jpg" alt="">
+        <div class="platetext"><h2>2D VINYL DESIGN</h2><p>Client Project</p> </div>
+    </div>
+<div class="plate2"><img src="img/work6.jpg" alt="">
+    <div class="platetext"><h2>2D VINYL DESIGN</h2><p>Client Project</p> </div>
+</div>
+<div class="bulb2"><img src="img/work7.jpg" alt="">
+    <div class="platetext"><h2>2D VINYL DESIGN</h2><p>Client Project</p> </div>
+</div>
+<div class="donut2"><img src="img/work8.jpg" alt="">
+    <div class="donuttext"><h2>2D VINYL DESIGN</h2><p>Client Project</p> </div>
+</div>
+</div>
+</div>
 
-<div class="carding">
-<div class="donut"><img src="img/work1.jpg" alt=""></div>
-<div class="bulb">
-<img src="img/work2.jpg" alt="">
-<img src="img/work3.jpg" alt="">
-<img src="img/work5.jpg" alt="" >
+<div class="men">
+    <div class="menimg"><img src="img/about-img.png" alt=""></div>
+    <div class="mentext">
+        <h2>About Myself</h2>
+        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher <br>conduct standards especially in the workplace. That’s why it’s crucial that, as women,<br> our behavior on the job is beyond reproach. inappropriate behavior is often laughed. <br> inappropriate behavior is often laughed off as “boys will be boys,” women face higher. <br><br>
 
+            That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. <br> inappropriate behavior is often laughed.</p>
+    <button class="more">More Info</button>
+    </div>
+</div>
+<div class="fancy">
+    <div class="cardmerge">
+        <img src="img/logo1.png" alt="" class="logo1">
+        <img src="img/logo2.png" alt="" class="logo2">
+        <img src="img/logo3.png" alt="" class="logo3">
+        <img src="img/logo4.png" alt="" class="logo4">
+        <img src="img/logo5.png" alt="" class="logo5">
+        </div>
 
+<div class="fanny">
+    <div class="nine"><img src="img/quote.png" alt=""></div>
+    <div class="fannytext">
+        <h2>Fanny Spencer</h2>
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.  <br>   repellendus eius maiores   repellendus eius maioresmaiores  <br> Officia, labore laborum.</p>
+    </div>
+</div>
+</div>
+</div>
 
+<div class="news">
+<div class="newstext">
+    <h2>Join Our Newsletter</h2>
+    <p>If you are looking at blank cassettes on the web, you may be very confused at <br> the difference in price. You may see some for as low as $.17 each.</p>
+<div class="search"><input type="text" name="" id="" placeholder="YOUR EMAIL ADDRESS">
+<div class="subs">
+<button>Subscribe</button>
+</div>
 </div>
 
 </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
