@@ -31,9 +31,12 @@ padding-right: 40px;
     margin-left: 200px;
 }
         .nav ul{
+            cursor: pointer;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 float: right;
-margin-right: 180px;
+margin-right: 80px;
         }
+        
         .nav a{
           text-decoration: none;
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -45,16 +48,18 @@ margin-right: 180px;
         }
         .steve{
             align-content: center;
-            margin-left:520px;
+            margin-left:450px;
             font-size: 3.5cap;
-            width: 550px;
-            height: 650px;
+            width: 650px;
+            height: 750px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             /* border: 2px solid red; */
         }
         .steve p{
             padding-left: 60px;
             padding-top: 20px;
             font-size: 1.5cap;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
         .steve .hire{
             border-radius: 20px;
@@ -66,7 +71,7 @@ margin-right: 180px;
             margin-left: 200px;
             font-size: 0.7cap;
             font-weight: bold;
-            margin-top: 30px;
+            margin-top: 20px;
         }
         .hire:hover{
             background: none;
@@ -75,7 +80,8 @@ margin-right: 180px;
         }
         .latest{
             width: 100%;
-            height: 100vh;
+            height: 50vh;
+            /* border: 2px solid red; */
         }
         .work{
             width: 100%;
@@ -95,12 +101,12 @@ margin-right: 180px;
             line-height: 24px;
             font-weight:530;
             margin-top: 20px;
-padding-left: 550px;
+            padding-left: 550px;
         }
 
 .nav2{
     width: 100%;
-    height: 50px;
+    height: 200px;
     background-color: white;
 }
 .down li{
@@ -127,7 +133,7 @@ display: inline-block;
     margin-left: 320px;
     width: 60%;
     height: 60px;
-    background-color: rgb(236, 201, 225);
+    background-color: rgb(252, 227, 244);
 }
 .back a:hover{
 color: rgb(252, 44, 186);
@@ -138,19 +144,60 @@ color: rgb(252, 44, 186);
 .port{
 display: inline-block;
 position: relative;
+cursor: pointer;
 }
 .dropdown{
 display: none;
 position: absolute;
 z-index: 1;
 }
+
+.dropdown p{
+    background-color:  rgb(251, 217, 28);
+    border-bottom: 2px solid wheat;
+    padding: 10px;
+    width: 150px;
+}
+.dropdown p:hover{
+background-color: palevioletred;
+}
+.port li:hover{
+color: white;
+}
 .port:hover .dropdown{
-width: 110px;
+cursor: pointer;
 height: 40px;
 background-color:  rgb(251, 217, 28);
-padding-top: 10px;
+padding-top: 40px;
 display: block;
 }
+.about:hover{
+color: white;
+}
+.carding{
+    width: 100%;
+    height: 80vh;
+    background-color: antiquewhite;
+    display: flex;
+}
+.donut{
+    width: 50%;
+    margin-left: 200px;
+}
+.donut img{
+    padding-right: 10px;
+    border-radius:15px;
+}
+.bulb{
+    width: 500p%;
+}
+.bulb img{
+    padding: 10px;
+    border-radius:15px;
+
+}
+
+
     </style>
 </head>
 <body>
@@ -158,9 +205,10 @@ display: block;
         <div class="nav">
             <img src="img/logo.png" alt="">
             <ul>
-            <li>Home</li>
-            <li>About</li>
-            <div class="port"><li>Portfolio</li>
+            <li class="hom">Home</li>
+            <li class="about">About</li>
+            <div class="port">
+            <li>Portfolio</li>
             <div class="dropdown">
             <p>Portfolio</p>
             <p>Portfolio Details</p>
@@ -191,14 +239,6 @@ display: block;
             <li></li>
             <li></li>
             <li></li></ul>
-            <!-- <ul>
-                <li><a href="" class="hom">Home</a></li>
-                <li><a href="">About     </a></li>
-                <li><a href="">Portfolio </a></li>
-                <li><a href="">Pages     </a></li>
-                <li><a href="">Blog      </a></li>
-                <li><a href="">Contact   </a></li>
-            </ul> -->
         </div>
         <div class="steve">
 <h1>Steve henriques</h1>
@@ -225,5 +265,27 @@ display: block;
         </div>
     </div>
 </div>
+
+
+<div class="carding">
+<div class="donut"><img src="img/work1.jpg" alt=""></div>
+<div class="bulb">
+<img src="img/work2.jpg" alt="">
+<img src="img/work3.jpg" alt="">
+<img src="img/work5.jpg" alt="" >
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
 </body>
 </html>
